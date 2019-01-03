@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns       =   "http://www.phonegap.com/ns/plugins/1.0"
-        id          =   "cordova-plugin-freshchat"
+        id          =   "cordova-plugin-freshchat-vmatskiv-fork"
         version     =   "1.2.0">
 
     <!-- Meta -->
