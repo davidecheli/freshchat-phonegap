@@ -1,5 +1,5 @@
 {
-    "name": "freshchat-vmatskiv-fork",
+    "name": "cordova-plugin-freshchat-vmatskiv-fork",
     "version": "1.2.1",
     "description": "Plugin for integrating the Freshchat SDK into a Phonegap/Cordova project",
     "cordova": {
