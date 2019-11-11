@@ -259,11 +259,15 @@
     if(arguments != nil && arguments.count > 0) {
         info = [arguments firstObject];
     } else {
-       [self callbackToJavascriptWithoutResultForCommand:command];
+        [self callbackToJavascriptWithoutResultForCommand:command];
     }
     if ([[Freshchat sharedInstance]isFreshchatNotification:info]) {
         NSLog(@"It is a freshchat notification");
         CDVPluginResult *result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsInt:(int)1];
+        [self callbackToJavascriptWithResult:result ForCommand:command];
+    } else {
+        NSLog(@"It is not a freshchat notification");
+        CDVPluginResult *result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsInt:(int)0];
         [self callbackToJavascriptWithResult:result ForCommand:command];
     }
 }
