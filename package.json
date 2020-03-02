@@ -1,9 +1,9 @@
 {
-    "name": "cordova-plugin-freshchat-vmatskiv-fork",
+    "name": "cordova-plugin-freshchat-davidecheli-fork",
     "version": "1.2.2",
     "description": "Plugin for integrating the Freshchat SDK into a Phonegap/Cordova project",
     "cordova": {
-        "id": "cordova-plugin-freshchat-vmatskiv-fork",
+        "id": "cordova-plugin-freshchat-davidecheli-fork",
         "platforms": [
             "android",
             "ios"
@@ -13,7 +13,7 @@
     "devDependencies": {},
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/vmatskiv/freshchat-phonegap.git"
+        "url": "git+https://github.com/davidecheli/freshchat-phonegap.git"
     },
     "keywords": [
         "freshdesk",
@@ -39,7 +39,7 @@
     "author": "DevRecords Inc",
     "license": "SEE LICENSE IN LICENSE",
     "bugs": {
-        "url": "https://github.com/vmatskiv/freshchat-phonegap/issues"
+        "url": "https://github.com/davidecheli/freshchat-phonegap/issues"
     },
     "homepage": "https://www.freshworks.com/",
     "main": "index.js"
